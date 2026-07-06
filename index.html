@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rahul Kushwaha — Young Web Developer</title>
+<meta name="description" content="Portfolio of Rahul Kushwaha, a Class 10 CBSE student building real skills in HTML, CSS and JavaScript." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="logo">RK<span class="dot">.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#journey">Mentor</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">// currently in class 10 — CBSE board</p>
+      <h1>Rahul<br><span class="accent-text">Kushwaha</span></h1>
+      <p class="hero-role">Young Web Developer</p>
+      <p class="hero-desc">
+        I build clean, working websites with HTML, CSS &amp; JavaScript.
+        Still in school, already writing code that ships.
+        Mentored by <strong>Rizwan</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Hire Me / Contact</a>
+        <a href="#skills" class="btn btn-ghost">See My Skills</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="terminal-card">
+        <div class="terminal-bar">
+          <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+          <span class="terminal-title">whoami.sh</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="type-line" id="typeLine1"></p>
+          <p><span class="prompt">$</span> status</p>
+          <p class="type-line" id="typeLine2"></p>
+          <p><span class="prompt">$</span> <span class="cursor">▌</span></p>
+        </div>
+      </div>
+
+      <div class="photo-frame">
+        <img src="rahul.jpeg" alt="Rahul Kushwaha" class="photo-img" />
+        <div class="photo-tag">RAHUL // BUILDING THE WEB</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="section-inner">
+    <p class="section-eyebrow">About</p>
+    <h2 class="section-title">A student by day, a developer by habit.</h2>
+    <p class="section-text">
+      I'm Rahul Kushwaha, currently studying in Class 10, Section A, under the CBSE board.
+      While most of my classmates are only using computers, I'm learning to build with them —
+      writing HTML for structure, CSS for design, and JavaScript to make things actually work.
+      This isn't a school project. It's a habit I'm building early, under the guidance of my mentor, Rizwan.
+    </p>
+
+    <div class="id-card">
+      <div class="id-card-top">
+        <span class="id-card-label">STUDENT DEVELOPER ID</span>
+        <span class="id-card-status">ACTIVE</span>
+      </div>
+      <div class="id-card-body">
+        <div class="id-photo">
+          <img src="rahul.jpeg" alt="Rahul Kushwaha ID photo" />
+        </div>
+        <div class="id-details">
+          <h3>Rahul Kushwaha</h3>
+          <ul>
+            <li><span>Class</span><b>10th</b></li>
+            <li><span>Section</span><b>A</b></li>
+            <li><span>Board</span><b>CBSE</b></li>
+            <li><span>Focus</span><b>Front-End Development</b></li>
+            <li><span>Mentor</span><b>Rizwan</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="id-card-bottom">
+        <span>Issued to prove one thing —</span>
+        <span class="id-card-strong">this student writes real code.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MENTOR / JOURNEY ============ -->
+<section class="journey" id="journey">
+  <div class="section-inner">
+    <p class="section-eyebrow">Guidance</p>
+    <h2 class="section-title">Learning under someone who knows the craft.</h2>
+    <div class="mentor-card">
+      <div class="mentor-glow"></div>
+      <div class="mentor-content">
+        <span class="mentor-badge">MENTOR</span>
+        <h3>Rizwan</h3>
+        <p>
+          Every skill on this page has been shaped by consistent guidance from my mentor, Rizwan —
+          a developer who pushed me to stop just learning syntax and start building things that work,
+          look clean, and hold up on a real screen. This site itself is proof of that training.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <p class="section-eyebrow">Skill Set</p>
+    <h2 class="section-title">What I actually work with.</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-head">
+          <span class="skill-cmd">&lt;/&gt;</span>
+          <h3>HTML5</h3>
+        </div>
+        <p>Semantic, accessible structure. Every page starts clean, from the tag up.</p>
+        <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <span class="skill-cmd">#</span>
+          <h3>CSS3</h3>
+        </div>
+        <p>Layouts, responsive design, animations — making things look like they were meant to.</p>
+        <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <span class="skill-cmd">{ }</span>
+          <h3>JavaScript</h3>
+        </div>
+        <p>DOM, events, logic. Turning a static page into something that responds.</p>
+        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-head">
+          <span class="skill-cmd">▢</span>
+          <h3>Responsive Design</h3>
+        </div>
+        <p>Mobile, tablet, desktop — one codebase, no broken layouts.</p>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+      </div>
+    </div>
+
+    <div class="currently-learning">
+      <span class="cl-label">Currently sharpening:</span>
+      <div class="cl-tags">
+        <span>Git &amp; GitHub</span>
+        <span>JavaScript DOM Projects</span>
+        <span>UI/UX Basics</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="section-inner">
+    <p class="section-eyebrow">Get In Touch</p>
+    <h2 class="section-title">Have work for me? Let's talk.</h2>
+    <p class="section-text">
+      Whether it's a small website, a school project, or just a question about code —
+      I reply fast. Reach out on whichever works best for you.
+    </p>
+
+    <div class="contact-grid">
+      <a href="mailto:rahul124@gmail.com" class="contact-card">
+        <span class="contact-icon">@</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-value">rahul124@gmail.com</span>
+      </a>
+
+      <a href="https://wa.me/918924816134" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">✆</span>
+        <span class="contact-label">WhatsApp</span>
+        <span class="contact-value">+91 89248 16134</span>
+      </a>
+
+      <a href="tel:+919919504392" class="contact-card">
+        <span class="contact-icon">☎</span>
+        <span class="contact-label">Call</span>
+        <span class="contact-value">+91 99195 04392</span>
+      </a>
+
+      <a href="https://instagram.com/rahul.codes" target="_blank" rel="noopener" class="contact-card">
+        <span class="contact-icon">◎</span>
+        <span class="contact-label">Instagram</span>
+        <span class="contact-value">@rahul.codes</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="section-inner footer-inner">
+    <p>© <span id="year"></span> Rahul Kushwaha. All rights reserved.</p>
+    <p class="footer-credit">Designed &amp; Developed by <span class="accent-text">Rizwan</span></p>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
